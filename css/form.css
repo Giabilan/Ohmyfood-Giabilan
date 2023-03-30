@@ -4,9 +4,8 @@ main .section-form {
     justify-content: center;
     padding: 15px 0px;
     background: #EAEAEA;
-    border-top: 3px solid var(--gray);
+    box-shadow: 0 -2px 4px -2px rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif;
-    
 }
 
 /* FORM */
@@ -14,11 +13,15 @@ main .section-form .form {
     display: flex;
 }
 
+/* FORM-ICON */
+main .section-form .form .form-position-icon {
+    margin-left: 5px;
+}
+
 /* FORM TEXT */
 main .form .form-text {
     display:flex;
-    padding: 0 25px;
-    
+    padding: 0 15px;
     font-size: 16px;
     font-weight:bold;
     color: var(--black);
