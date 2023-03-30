@@ -1,0 +1,60 @@
+.section-navbar {
+    padding: 50px 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+}
+
+.section-navbar .navbar h2 {
+    margin-bottom: 30px;
+}
+
+.section-navbar .navbar ul li {
+   box-shadow: 1px 1px 4px 1px var(--gray);
+    padding: 30px 0;
+    border-radius: 30px;
+    list-style: none;
+}
+
+.section-navbar .navbar ul a {
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+}
+
+.section-navbar .navbar ul li {
+    margin-bottom: 30px;
+}
+
+.section-navbar .navbar ul li a .number {
+    color: var(--white);
+    background-color: var(--main);
+    border-radius: 25px;
+    padding: 2.5px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin: 0 -13px;
+    
+}
+
+ .section-navbar .navbar ul li a .icon-text {
+    display: flex;
+    margin-left: 30px;
+ }
+
+.section-navbar .navbar ul li a i {
+     display: flex;
+     margin-right: 30px;
+     font-size: 20px;
+     color: var(--gray);
+}
+
+.section-navbar .navbar ul li a i.purple {
+    color: var(--main);
+}
+
+.section-navbar .navbar ul li a span .text-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}

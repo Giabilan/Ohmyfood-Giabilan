@@ -1,0 +1,17 @@
+/* HEADER */
+header {
+    background: var(--white);
+}
+
+header nav .logo a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+header nav .logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive; 
+}

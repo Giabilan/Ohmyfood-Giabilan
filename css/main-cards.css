@@ -1,0 +1,81 @@
+.section-main-cards {
+    background-color: var(--graybis);
+    padding: 60px 10px 50px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-main-cards h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-main-cards .container article {
+    margin-bottom: 20px;
+}
+
+.section-main-cards .container article .cards {
+    background-color: var(--white);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.section-main-cards .container article .cards .new-text {
+    position: absolute;
+    bottom: 80%;
+    left: 70%;
+    font-size: 15px;
+	color: #008766;
+	background-color: #99E2D0;
+	padding: 5px 12px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+}
+
+.section-main-cards .container article .cards .photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 180px;
+    width: 100%;
+}
+
+.section-main-cards .container article .cards .photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.section-main-cards .container article .cards .block-content {
+border-radius: 0 0 20px 20px;
+padding: 12px 0;
+margin-left: 15px;
+}
+
+.section-main-cards .container article .cards .block-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-main-cards .container article .cards .block-content h3 i {
+    display: flex;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.section-main-cards .container article .cards .block-content p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+

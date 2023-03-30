@@ -1,0 +1,33 @@
+footer {
+    background-color: #353535;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+footer h2 {
+    color: var(--white);
+    font-size: 18px;
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 10px; 
+    font-weight: normal;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+    margin-bottom: 5px;
+}
+
+footer nav ul li i {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+footer nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
