@@ -99,7 +99,6 @@ section .section-menu {
 
 footer {
     position: relative;
-    padding: 20px;
 }
 
 .footer-flex {
@@ -115,6 +114,6 @@ footer h2 {
 }
 
 footer nav ul {
-     padding: 0 20px;
+     padding: 1px 20px;
 }
 
