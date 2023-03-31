@@ -8,10 +8,36 @@ header nav .logo a {
     color: var(--black);
 }
 
+header nav .logo-menu-pages a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 header nav .logo {
     display: flex;
     justify-content: center;
     padding: 10px;
     font-size: 30px;
     font-family: 'Shrikhand', cursive; 
+}
+
+header nav .logo-menu-pages {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+    margin-left:65px; 
+}
+
+header nav  .icon-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+header nav  .icon-logo .icon-arrow i {
+    font-size: 26px;
+    margin-left: 20px;
+    color: var(--black);
 }

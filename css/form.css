@@ -1,28 +1,64 @@
-/* SECTION FORM */
-main .section-form {
+
+.label-input {
+    padding: 15px 0px;
+    background: var(--gray);
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 -2px 4px -2px rgba(0, 0, 0, 0.5);
+
+}
+
+form i {
+    margin-left: 110px;
+}
+
+form input {
+    border: none;
+    font-size: 16px;
+    background: var(--gray);
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    outline: none;
+}
+
+form .title-button {
+    background: var(--graybis);
+    padding: 50px 0;
+    justify-content: center;
+}
+
+form .title-button h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 30px;
+}
+
+form .title-button p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+form .title-button .search-button {
+    padding: 20px 0;
     display: flex;
     justify-content: center;
-    padding: 15px 0px;
-    background: #EAEAEA;
-    box-shadow: 0 -2px 4px -2px rgba(0, 0, 0, 0.5);
-    font-family: 'Roboto', sans-serif;
 }
 
-/* FORM */
-main .section-form .form {
-    display: flex;
-}
-
-/* FORM-ICON */
-main .section-form .form .form-position-icon {
-    margin-left: 5px;
-}
-
-/* FORM TEXT */
-main .form .form-text {
-    display:flex;
-    padding: 0 15px;
+form .title-button button {
+    color: var(--white);
     font-size: 16px;
-    font-weight:bold;
-    color: var(--black);
+    text-align: center;
+    border-radius: 50px;
+    padding: 18px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    font-weight: 600;
+    margin-top: 15px;
 }
+

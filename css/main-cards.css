@@ -14,6 +14,11 @@
  margin: 0 8px 20px 8px;
 }
 
+.section-main-cards .container article a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .section-main-cards .container article .cards {
     background-color: var(--white);
     border-radius: 20px;
@@ -70,11 +75,12 @@ margin-left: 15px;
     position: absolute;
     bottom: 8%;
     left: 88%;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .section-main-cards .container article .cards .block-content p {
     font-size: 17px;
+    font-weight: 300;
 }
 
 

@@ -1,7 +1,6 @@
 footer {
     background-color: #353535;
-    padding: 20px;
-    margin-bottom: 10px;
+    padding: 20px 20px 1px 20px;
 }
 
 footer h2 {
@@ -18,7 +17,7 @@ footer nav ul {
 }
 
 footer nav ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 footer nav ul li i {
