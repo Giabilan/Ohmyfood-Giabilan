@@ -21,22 +21,21 @@ header nav .logo {
     font-family: 'Shrikhand', cursive; 
 }
 
+/* HEADER MENU-PAGES */
+
 header nav .logo-menu-pages {
-    display: flex;
-    justify-content: center;
     padding: 10px;
     font-size: 30px;
     font-family: 'Shrikhand', cursive;
-    margin-left:65px; 
+    margin: 0 62px;
 }
 
 header nav  .icon-logo {
     display: flex;
     align-items: center;
-
 }
 
-header nav  .icon-logo .icon-arrow i {
+header nav  .icon-logo i {
     font-size: 26px;
     margin-left: 20px;
     color: var(--black);

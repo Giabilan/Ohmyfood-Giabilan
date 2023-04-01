@@ -11,7 +11,9 @@
 }
 
 .section-main-cards .container article {
- margin: 0 8px 20px 8px;
+    margin: 0 8px 20px 8px;
+    box-shadow: #8f87876b 0px 0px 10px 0px;
+    border-radius: 20px;
 }
 
 .section-main-cards .container article a {
@@ -23,7 +25,6 @@
     background-color: var(--white);
     border-radius: 20px;
     position: relative;
-
 }
 
 .section-main-cards .container article .cards .new-text {
@@ -58,9 +59,9 @@
 }
 
 .section-main-cards .container article .cards .block-content {
-border-radius: 0 0 20px 20px;
-padding: 12px 0;
-margin-left: 15px;
+    border-radius: 0 0 20px 20px;
+    padding: 12px 0;
+    margin-left: 15px;
 }
 
 .section-main-cards .container article .cards .block-content h3 {
