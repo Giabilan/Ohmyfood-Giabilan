@@ -1,0 +1,125 @@
+/*****************BREAKPOINT DESKTOP*******************/
+@media only screen and (min-width: 1076px) {
+  /* MENU-PAGES */
+  .main__menu--line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .main__menu--title {
+    margin-right: 20px;
+  }
+
+  .main__menu--subtitle {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .main__menu {
+    width: 80%;
+  }
+
+  .button {
+    width: 40%;
+  }
+  .step {
+    flex-wrap: nowrap;
+  }
+  .step-cards {
+    margin: 20px 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 80px 0 1000px;
+    height: 114px;
+  }
+  footer .footer-logo {
+    min-width: 100px;
+
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-evenly;
+    margin: 50px 0 0 0;
+    padding: 0;
+  }
+
+  footer nav #mg-left-desktop {
+    display: flex;
+    margin: 0 -20px;
+  }
+
+  footer nav #mg-left-desktop a {
+    margin-left: 10px;
+  }
+
+  form {
+    background: #f6f6f6;
+  }
+
+  form .button {
+    margin: auto;
+  }
+
+  .function {
+    padding: 30px 150px;
+  }
+
+  .section-main-cards {
+    padding: 20px 150px;
+    height: 790px;
+    margin: 0 auto;
+  }
+
+.section-main-cards h2 {
+  padding: 0 80px;
+}
+
+  .section-main-cards .container {
+    display: flex;
+    gap: 0px;
+    margin: 0 auto;
+  }
+
+.desktop-adjust {
+  width: 40%;
+ margin: 0 auto;
+}
+
+.desktop-adjust2 {
+  width: 40%;
+ margin: 0 auto;
+}
+
+  .section-main-cards .container article {
+    margin: 0 8px 50px 8px;
+    box-shadow: #8f87876b 0px 0px 10px 0px;
+    border-radius: 20px;
+    background: white;
+    height: 300px;
+  }
+
+  .section-main-cards .container article .cards .photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 230px;
+    width: 100%;
+  }
+
+  .section-main-cards .container article .cards .photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    object-fit: cover;
+  }
+}

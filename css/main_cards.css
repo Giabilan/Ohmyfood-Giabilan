@@ -1,0 +1,102 @@
+/*liste des restaurants*/
+.section-main-cards {
+  background-color: #f6f6f6;
+  padding: 60px 10px 50px 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 80px;
+}
+
+.section-main-cards h2 {
+  margin: 0 0px 20px 8px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-main-cards .container article {
+  margin: 0 8px 20px 8px;
+  box-shadow: #8f87876b 0px 0px 10px 0px;
+  border-radius: 20px;
+  background: white;
+  height: 250px;
+}
+
+.section-main-cards .container article a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* NEW-TEXT */
+.section-main-cards .container article .cards {
+  position: relative;
+}
+.section-main-cards .container article .cards .new-text p {
+  position: absolute;
+  bottom: 80%;
+  left: 73%;
+  font-size: 15px;
+  color: #008766;
+  background-color: #99e2d0;
+  padding: 6px 12px;
+  font-weight: 900;
+  border-radius: 2px;
+}
+
+.section-main-cards .container article .cards .photo {
+  height: 180px;
+  width: 100%;
+}
+
+.section-main-cards .container article .cards .photo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.section-main-cards .container article .cards .block-content {
+  border-radius: 0 0 20px 20px;
+  padding: 12px 0;
+  margin-left: 15px;
+}
+
+.section-main-cards .container article .cards .block-content h3 {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0 0 5px 0;
+}
+
+.section-main-cards .container article .cards .block-content p {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* HEART-ICON */
+.container-like-btn {
+  position: relative;
+}
+
+.icon-like-1,
+.icon-like-2 {
+  position: absolute;
+  bottom: 20px;
+  left: 88%;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+article .container-like-btn .icon-like-2 {
+  opacity: 0;
+  color: transparent;
+  background-image: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 0.3s ease-in-out;
+}
+
+article .container-like-btn .icon-like-2:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}

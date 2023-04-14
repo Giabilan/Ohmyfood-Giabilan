@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+  background: #d2d2d2;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}

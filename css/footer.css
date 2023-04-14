@@ -1,0 +1,31 @@
+/* footer */
+footer {
+  background-color: #353535;
+  height: 200px;
+  padding: 20px 0 0 0;
+  margin-top: -80px;
+}
+
+footer .footer-logo {
+  filter: invert(100%);
+  max-width: 100px;
+  padding: 10px 30px;
+}
+
+footer nav ul {
+  margin: 10px 0 0 0;
+  padding: 0 30px;
+}
+
+footer nav ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+footer nav ul li a {
+  color: white;
+}
+footer nav ul li a .footer-icon {
+  margin-right: 10px;
+}

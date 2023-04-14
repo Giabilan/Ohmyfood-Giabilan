@@ -1,0 +1,52 @@
+/*------LOADER------*/
+.loader {
+  /*pour fixer le loader au centre*/
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  /*animation*/
+  animation: loader 0.4s;
+  animation-delay: 1.55s;
+  animation-fill-mode: both;
+  /*pour que le loader apparaisse au dessus de la page*/
+  z-index: 10000;
+}
+
+.loader__item--logo {
+  animation-delay: 0.2s;
+}
+
+@keyframes loader {
+    100% {
+      opacity: 0;
+      z-index: -10;
+    }
+}
+
+.loader__item {
+  animation: jump 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(50px);
+    }
+    75% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
