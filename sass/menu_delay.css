@@ -1,37 +1,36 @@
 /* ANIMATION-DELAY */
 .delay-0.menu__item {
   animation-delay: 0s;
-  margin: 0 0 10px 0;
 }
+
 .delay-1.menu__item {
   animation-delay: 0.1s;
-  margin: 0 0 10px 0;
 }
+
 .delay-2.menu__item {
   animation-delay: 0.2s;
-  margin: 0 0 10px 0;
 }
+
 .delay-3.menu__item {
   animation-delay: 0.3s;
-  margin: 0 0 10px 0;
 }
+
 .delay-4.menu__item {
   animation-delay: 0.4s;
-  margin: 0 0 10px 0;
 }
+
 .delay-5.menu__item {
   animation-delay: 0.5s;
-  margin: 0 0 10px 0;
 }
+
 .delay-6.menu__item {
   animation-delay: 0.6s;
-  margin: 0 0 10px 0;
 }
+
 .delay-7.menu__item {
   animation-delay: 0.7s;
-  margin: 0 0 10px 0;
 }
+
 .delay-8.menu__item {
   animation-delay: 0.8s;
-  margin: 0 0 10px 0;
-}
+}/*# sourceMappingURL=menu_delay.css.map */
