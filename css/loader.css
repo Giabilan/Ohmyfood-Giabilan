@@ -16,6 +16,7 @@
   animation-fill-mode: both;
   /*pour que le loader apparaisse au dessus de la page*/
   z-index: 10000;
+  display: none;
 }
 
 .loader__item--logo {
