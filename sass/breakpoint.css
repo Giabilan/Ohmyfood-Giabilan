@@ -1,5 +1,5 @@
 /*****************BREAKPOINT DESKTOP*******************/
-@media only screen and (min-width: 1076px) {
+@media only screen and (min-width: 1072px) {
   /* MENU-PAGES */
   .main__menu--line {
     display: flex;
@@ -20,17 +20,16 @@
   .button {
     width: 40%;
   }
-  .step {
+  .section-step {
+    padding: 30px 150px;
+  }
+  .container-step {
     flex-wrap: nowrap;
     width: 85%;
     margin: auto;
   }
-  .function__title {
+  .step__title {
     margin-left: 85px;
-  }
-  .steps__all__block {
-    width: 100%;
-    margin: auto;
   }
   .step-cards {
     margin: 20px;
@@ -65,8 +64,11 @@
   form .button {
     margin: auto;
   }
-  .function {
-    padding: 30px 150px;
+  form .form-block-content h1 {
+    font-size: 40px;
+  }
+  form .form-block-content h1 .form-block-content p {
+    margin-top: 30px;
   }
   .section-main-cards {
     padding: 20px 150px;
@@ -90,16 +92,15 @@
     border-radius: 20px;
     background: white;
     height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .section-main-cards .container article:hover {
+    transform: scale(0.98);
   }
   .section-main-cards .container article .new-text {
     position: absolute;
     bottom: 75%;
-    left: 65%;
-    font-size: 15px;
-    color: #008766;
-    padding: 6px 12px;
-    font-weight: 900;
-    border-radius: 2px;
+    left: 80%;
   }
   .section-main-cards .container article .cards .photo {
     display: flex;

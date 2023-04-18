@@ -1,8 +1,4 @@
 /*liste des restaurants*/
-body {
-  margin: 0;
-}
-
 .section-main-cards {
   background-color: #f6f6f6;
   padding: 60px 10px 50px 10px;
@@ -23,7 +19,7 @@ body {
 }
 .section-main-cards .container article a {
   text-decoration: none;
-  color: var(--black);
+  color: black;
 }
 .section-main-cards .container article .cards {
   position: relative;
@@ -68,7 +64,6 @@ body {
   margin: 0;
 }
 
-/* NEW-TEXT */
 /* HEART-ICON */
 .container-like-btn {
   position: relative;

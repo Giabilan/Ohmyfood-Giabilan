@@ -11,7 +11,7 @@ body {
 
 i.fa-arrow-left {
   color: #353535;
-  font-size: 29px;
+  font-size: 24px;
   margin: 0 0 0 30px;
   position: relative;
   bottom: 35px;
@@ -21,7 +21,6 @@ i.fa-arrow-left {
 
 main .photo {
   flex-wrap: wrap;
-  box-sizing: border-box;
   height: 300px;
   width: 100%;
 
@@ -34,7 +33,7 @@ main .photo {
   }
 }
 
-.main__menu {
+.section__main--menu {
   background: #f7f7f7;
   border-radius: 40px 40px 0px 0px;
   padding: 35px 15px;
@@ -56,10 +55,12 @@ main .photo {
   position: relative;
   right: 35px;
   opacity: 0;
+  
   color: transparent;
   background-image: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
   -webkit-background-clip: text;
+
   transition: all 0.3s ease-in-out;
 
   &:hover {
@@ -93,7 +94,7 @@ main .photo {
   }
 }
 
-.main__menu--subtitle {
+article .main__menu--subtitle {
   display: flex;
   flex-direction: column;
 }
@@ -109,11 +110,11 @@ main .photo {
   box-shadow: rgb(0 0 0 / 10%) 0.25rem 0.25rem 1rem;
   overflow: hidden;
   cursor: pointer;
+    margin: 0 0 10px 0;
+
   animation: item-appear 0.8s;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
-  transform: scale(0);
-  margin: 0 0 10px 0;
 }
 
 @keyframes item-appear {
@@ -135,6 +136,7 @@ main .photo {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+
   margin: 0 0 5px 0;
   font-weight: 500;
 }
@@ -143,7 +145,7 @@ main .photo {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  font-style: normal;
+  
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -155,7 +157,7 @@ main .photo {
   padding-left: 20px;
 }
 
-.menu__item--confirmation {
+.menu__item--affirm {
   background-color: #99e2d0;
   margin: 0px -80px -16px 16px;
   height: 72px;
@@ -166,7 +168,7 @@ main .photo {
   transition-duration: 0.5s;
 }
 
-.menu__item:hover .menu__item--confirmation {
+.menu__item:hover .menu__item--affirm {
   margin-right: -16px;
 }
 
@@ -185,7 +187,7 @@ main .photo {
   color: #99e2d0;
 }
 
-.main__button {
+.order-button {
   text-align: center;
   padding-top: 30px;
 
