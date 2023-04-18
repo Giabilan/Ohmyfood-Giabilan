@@ -99,12 +99,11 @@
 
     .container {
       display: flex;
-      gap: 0px;
-      margin: 0 auto;
+      flex-flow: row wrap;
     }
   }
 
-  .desktop-adjust, .main_cards-3-4__desktop-adjust {
+  .main-cards__desktop-size {
     width: 40%;
     margin: 0 auto;
   }
@@ -115,6 +114,17 @@
     border-radius: 20px;
     background: white;
     height: 300px;
+
+    .new-text {
+      position: absolute;
+      bottom: 75%;
+      left: 65%;
+      font-size: 15px;
+      color: #008766;
+      padding: 6px 12px;
+      font-weight: 900;
+      border-radius: 2px;
+    }
 
     .cards .photo {
       display: flex;
