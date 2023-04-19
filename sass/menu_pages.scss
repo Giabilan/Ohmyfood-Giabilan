@@ -1,10 +1,10 @@
-body {
-  margin: 0;
-}
-
 * {
   list-style: none;
   text-decoration: none;
+}
+
+body {
+  margin: 0;
 }
 
 /* HEADER ARROW-ICON */
@@ -23,7 +23,7 @@ main .photo {
   flex-wrap: wrap;
   height: 300px;
   width: 100%;
-
+  
   img {
     height: 270px;
     width: 100%;
@@ -39,7 +39,6 @@ main .photo {
   padding: 35px 15px;
   position: relative;
   bottom: 80px;
-  margin: auto;
 }
 
 .main__menu--line {
@@ -55,7 +54,7 @@ main .photo {
   position: relative;
   right: 35px;
   opacity: 0;
-  
+
   color: transparent;
   background-image: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
@@ -108,9 +107,9 @@ article .main__menu--subtitle {
   padding: 16px;
   border-radius: 15px;
   box-shadow: rgb(0 0 0 / 10%) 0.25rem 0.25rem 1rem;
-  overflow: hidden;
   cursor: pointer;
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
+  overflow: hidden;
 
   animation: item-appear 0.8s;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
@@ -145,7 +144,7 @@ article .main__menu--subtitle {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  
+
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;

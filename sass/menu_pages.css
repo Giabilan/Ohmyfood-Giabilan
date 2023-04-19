@@ -1,10 +1,10 @@
-body {
-  margin: 0;
-}
-
 * {
   list-style: none;
   text-decoration: none;
+}
+
+body {
+  margin: 0;
 }
 
 /* HEADER ARROW-ICON */
@@ -37,7 +37,6 @@ main .photo img {
   padding: 35px 15px;
   position: relative;
   bottom: 80px;
-  margin: auto;
 }
 
 .main__menu--line {
@@ -101,9 +100,9 @@ article .main__menu--subtitle {
   padding: 16px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.1) 0.25rem 0.25rem 1rem;
-  overflow: hidden;
   cursor: pointer;
   margin: 0 0 10px 0;
+  overflow: hidden;
   animation: item-appear 0.8s;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
