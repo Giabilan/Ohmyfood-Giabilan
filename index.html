@@ -1,55 +1,43 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ohmyfood!</title>
-    <!--fichier css-->
-    <link rel="stylesheet" href="./sass/style.css" />
-    <link rel="stylesheet" href="./sass/loader.css" />
-    <link rel="stylesheet" href="./sass/header.css" />
-    <link rel="stylesheet" href="./sass/form.css" />
-    <link rel="stylesheet" href="./sass/step.css" />
-    <link rel="stylesheet" href="./sass/main_cards.css" />
-    <link rel="stylesheet" href="./sass/footer.css" />
-    <link rel="stylesheet" href="./sass/menu_pages.css" />
-    <link rel="stylesheet" href="./sass/menu_delay.css" />
-    <link rel="stylesheet" href="./sass/breakpoint.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohmyfood</title>
+    <!--fichier sass/css-->
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="./sass/loader.css">
+    <link rel="stylesheet" href="./sass/header.css">
+    <link rel="stylesheet" href="./sass/form.css">
+    <link rel="stylesheet" href="./sass/step.css">
+    <link rel="stylesheet" href="./sass/main_cards.css">
+    <link rel="stylesheet" href="./sass/footer.css">
+    <link rel="stylesheet" href="./sass/menu_pages.css">
+    <link rel="stylesheet" href="./sass/menu_delay.css">
+    <link rel="stylesheet" href="./sass/breakpoint.css">
     <!--fontawosome-->
-    <script
-      src="https://kit.fontawesome.com/f0189703f2.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/f0189703f2.js" crossorigin="anonymous"></script>
     <!--google fonts roboto-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Le Loader -->
     <div class="loader">
       <div class="loader__item--container">
         <div class="loader__item loader__item--logo">
-          <img src="images/logo/ohmyfood@2x.svg" alt="logo du loader" />
+          <img src="images/logo/ohmyfood@2x.svg" alt="logo du loader">
         </div>
       </div>
     </div>
-
     <!-- HEADER -->
     <header class="header">
       <div class="logo">
-        <img
-          class="header__image"
-          src="images/logo/ohmyfood@2x.svg"
-          alt="logo de ohmyfood"
-        />
+        <img class="header__image" src="images/logo/ohmyfood@2x.svg" alt="logo de ohmyfood">
       </div>
     </header>
-
     <!-- FORM -->
     <main>
       <section class="section-form">
@@ -58,36 +46,25 @@
             <label for="localisation">
               <i class="fa-solid fa-location-dot"></i>
             </label>
-            <input
-              type="text"
-              id="localisation"
-              name="localisation"
-              placeholder="Paris, Belleville"
-            />
+            <input type="text" id="localisation" name="localisation" placeholder="Paris, Belleville">
           </div>
-
           <div class="form-block-content">
             <h1>Réservez le menu qui vous convient</h1>
-            <p>
-              Découvrez des restaurants d'exception, sélectionnés par nos soins.
-            </p>
-
+            <p> Découvrez des restaurants d'exception, sélectionnés par nos soins. </p>
             <div class="button">
-              <button>
-                <a href="#main-cards">Explorer nos restaurants</a>
-              </button>
+              <div class="button__text">
+                <a href="#to-main-cards">Explorer nos restaurants</a>
+              </div>
             </div>
           </div>
         </form>
       </section>
-
       <!-- FONCTIONNEMENT -->
       <section class="section-step">
         <h2 class="step__title">Fonctionnement</h2>
-
         <div class="container-step">
-          <!-- CARDS 1 -->
-          <article class="step-cards">
+          <!-- STEP 1 -->
+          <div class="step-cards">
             <div class="step-number">
               <span class="number">1</span>
             </div>
@@ -95,10 +72,9 @@
               <i class="fa-solid fa-mobile-screen-button"></i>
             </div>
             <p class="step-text">Choisissez un restaurant</p>
-          </article>
-
-          <!-- CARDS 2 -->
-          <article class="step-cards">
+          </div>
+          <!-- STEPS 2 -->
+          <div class="step-cards">
             <div class="step-number">
               <span class="number">2</span>
             </div>
@@ -106,10 +82,9 @@
               <i class="fa-solid fa-list-ul"></i>
             </div>
             <p class="step-text">Composez votre menu</p>
-          </article>
-
-          <!-- CARDS 3 -->
-          <article class="step-cards">
+          </div>
+          <!-- STEPS 3 -->
+          <div class="step-cards">
             <div class="step-number">
               <span class="number">3</span>
             </div>
@@ -117,12 +92,11 @@
               <i class="fa-solid fa-store"></i>
             </div>
             <p class="step-text">Dégustez au restaurant</p>
-          </article>
+          </div>
         </div>
       </section>
-
       <!-- RESTAURANTS-CARDS -->
-      <section id="main-cards" class="section-main-cards">
+      <section id="to-main-cards" class="section-main-cards">
         <h2>Restaurants</h2>
         <div class="container">
           <!-- CARD 1 -->
@@ -130,10 +104,7 @@
             <article>
               <a class="cards" href="./restaurants/la_palette_du_gout.html">
                 <div class="photo">
-                  <img
-                    src="images/restaurants/la_palette_du_gout.jpg"
-                    alt="image du restaurant la palette du goût"
-                  />
+                  <img src="images/restaurants/la_palette_du_gout.jpg" alt="image du restaurant la palette du goût">
                 </div>
                 <div class="new-text">
                   <p>Nouveau</p>
@@ -143,7 +114,6 @@
                   <p>Ménilmontant</p>
                 </div>
               </a>
-
               <!--l'animation du coeur-->
               <div class="container-like-btn">
                 <!--pour afficher le coeur avec le fond blanc-->
@@ -152,16 +122,12 @@
               </div>
             </article>
           </div>
-
           <!-- CARD 2 -->
           <div class="main-cards__desktop-size">
             <article>
               <a class="cards" href="./restaurants/La_note_enchantee.html">
                 <div class="photo">
-                  <img
-                    src="images/restaurants/la_note_enchantee.jpg"
-                    alt="image du restaurant la palette du goût"
-                  />
+                  <img src="images/restaurants/la_note_enchantee.jpg" alt="image du restaurant la palette du goût">
                 </div>
                 <div class="new-text">
                   <p>Nouveau</p>
@@ -179,16 +145,12 @@
               </div>
             </article>
           </div>
-
           <!-- CARD 3 -->
           <div class="main-cards__desktop-size">
             <article>
               <a class="cards" href="./restaurants/a_la_francaise.html">
                 <div class="photo">
-                  <img
-                    src="images/restaurants/a_la_francaise.jpg"
-                    alt="image du restaurant la palette du goût"
-                  />
+                  <img src="images/restaurants/a_la_francaise.jpg" alt="image du restaurant la palette du goût">
                 </div>
                 <div class="block-content">
                   <h3>À la française</h3>
@@ -203,16 +165,12 @@
               </div>
             </article>
           </div>
-
           <!-- CARD 4 -->
           <div class="main-cards__desktop-size">
             <article>
               <a class="cards" href="./restaurants/le_delice_des_sens.html">
                 <div class="photo">
-                  <img
-                    src="images/restaurants/le_delice_des_sens.jpg"
-                    alt="image du restaurant la palette du goût"
-                  />
+                  <img src="images/restaurants/le_delice_des_sens.jpg" alt="image du restaurant la palette du goût">
                 </div>
                 <div class="block-content">
                   <h3>Le délice des sens</h3>
@@ -229,39 +187,25 @@
           </div>
         </div>
       </section>
-
       <!-- FOOTER -->
       <footer>
-        <img
-          class="footer-logo"
-          src="images/logo/ohmyfood@2x.svg"
-          alt="le logo de ohmyfood"
-        />
+        <img class="footer-logo" src="images/logo/ohmyfood@2x.svg" alt="le logo de ohmyfood">
         <nav>
           <ul>
-            <div id="mg-left-desktop">
-              <li>
-                <a href="#"
-                  ><i class="footer-icon fa-solid fa-utensils"></i>Proposer un
-                  restaurant</a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="footer-icon fa-solid fa-handshake-angle"></i
-                  >Devenir partenaire</a
-                >
-              </li>
-            </div>
-
-            <div id="mg-left-desktop">
-              <li>
-                <a href="#">Mentions légales</a>
-              </li>
-              <li>
-                <a href="mailto:contact@ohmyfood.com">Contact</a>
-              </li>
-            </div>
+            <li>
+              <a href="#">
+                <i class="footer-icon fa-solid fa-utensils"></i>Proposer un restaurant </a>
+            </li>
+            <li class="mg-right-desktop">
+              <a href="#">
+                <i class="footer-icon fa-solid fa-handshake-angle"></i>Devenir partenaire </a>
+            </li>
+            <li>
+              <a href="#">Mentions légales</a>
+            </li>
+            <li>
+              <a href="mailto:contact@ohmyfood.com">Contact</a>
+            </li>
           </ul>
         </nav>
       </footer>

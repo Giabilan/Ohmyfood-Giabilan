@@ -46,16 +46,15 @@
   footer nav ul {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 600px;
     justify-content: space-evenly;
     margin: 50px 0 0 0;
     padding: 0;
   }
-  footer nav #mg-left-desktop {
-    display: flex;
-    margin: 0 -20px;
+  footer nav .mg-right-desktop {
+    margin-right: 30px;
   }
-  footer nav #mg-left-desktop a {
+  footer nav .mg-right-desktop a {
     margin-left: 10px;
   }
   form {
@@ -69,6 +68,10 @@
   }
   form .form-block-content h1 .form-block-content p {
     margin-top: 30px;
+  }
+  .section__main--menu {
+    width: 80%;
+    margin: 0 auto;
   }
   .section-main-cards {
     padding: 20px 150px;

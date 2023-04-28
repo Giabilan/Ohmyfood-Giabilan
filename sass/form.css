@@ -47,7 +47,7 @@ form .button {
   display: flex;
   justify-content: center;
 }
-form .button button {
+form .button .button__text {
   background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
   border: none;
   color: white;
@@ -64,7 +64,7 @@ form .button button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
-form .button button:hover {
+form .button .button__text:hover {
   opacity: 0.7;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
 }
