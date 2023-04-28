@@ -20,9 +20,12 @@ footer nav ul li {
   font-size: 16px;
   margin-bottom: 15px;
 }
+footer nav ul li .footer-icon {
+  margin-right: 10px;
+}
 footer nav ul li a {
   color: white;
 }
-footer nav ul li a .footer-icon {
-  margin-right: 10px;
+footer nav ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=footer.css.map */
