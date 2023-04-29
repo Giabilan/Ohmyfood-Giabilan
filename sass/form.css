@@ -48,7 +48,7 @@ form .button {
   justify-content: center;
 }
 form .button .button__text {
-  background: linear-gradient(200.64deg, #9356dc -5.2%, #ff79da 110.74%);
+  background: linear-gradient(#FF79DA, #9356DC);
   border: none;
   color: white;
   padding: 15px 32px;
