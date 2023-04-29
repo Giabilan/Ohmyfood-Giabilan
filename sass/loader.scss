@@ -9,7 +9,9 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.9);
-  animation: loader 500ms;
+  // TEMPS DE FIN DE L'ANIMATION
+  animation: loader 550ms;
+  // TEMPS DE L'ANIMATION COMPLETE
   animation-delay: 1.55s;
   animation-fill-mode: both;
   z-index: 7575757;
@@ -20,7 +22,7 @@
     z-index: -999;
   }
 }
-
+// TEMPS DE ROTATION
 .loader__item {
   animation: rotate 7000ms;
 }

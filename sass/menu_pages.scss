@@ -1,3 +1,4 @@
+// GENERAL
 * {
   list-style: none;
   text-decoration: none;
@@ -7,8 +8,7 @@ body {
   margin: 0;
 }
 
-/* HEADER ARROW-ICON */
-
+/* HEADER ARROW-LEFT-ICON */
 i.fa-arrow-left {
   color: #353535;
   font-size: 24px;
@@ -17,8 +17,7 @@ i.fa-arrow-left {
   bottom: 35px;
 }
 
-/* MAIN IMAGE */
-
+/* MAIN IMG */
 main .photo {
   flex-wrap: wrap;
   height: 300px;
@@ -33,6 +32,7 @@ main .photo {
   }
 }
 
+// CONTENT
 .section__main--menu {
   background: #f7f7f7;
   border-radius: 40px 40px 0px 0px;
@@ -40,7 +40,7 @@ main .photo {
   position: relative;
   bottom: 80px;
 }
-
+// FIRST TOP LINE TEXT
 .main__menu--line {
   display: flex;
   justify-content: space-between;
@@ -49,17 +49,15 @@ main .photo {
     font-size: 30px;
   }
 }
-
+// 2nd HEART ICON
 .menu-icon-like-2 {
   position: relative;
   right: 35px;
   opacity: 0;
-
   color: transparent;
   background-image: linear-gradient(#9356dc, #ff79da);
   background-clip: text;
   -webkit-background-clip: text;
-
   transition: all 0.3s ease-in-out;
 
   &:hover {
@@ -67,14 +65,14 @@ main .photo {
     transform: scale(1.2);
   }
 }
-
+// H2
 .main__menu--title {
   font-family: "Shrikhand", cursive;
   font-weight: 400;
   font-size: 28px;
   margin-top: 0;
 }
-
+// H3
 .menu__subtitle {
   font-family: "Roboto";
   font-weight: 300;
@@ -82,6 +80,7 @@ main .photo {
   text-transform: uppercase;
   margin: 30px 0 15px 0;
 
+// BORDER BOTTOM
   &::after {
     background-color: #99e2d0;
     content: "";
@@ -97,7 +96,7 @@ article .main__menu--subtitle {
   display: flex;
   flex-direction: column;
 }
-
+// BLOCK-CONTENT CARDS
 .menu__item {
   display: flex;
   align-items: flex-end;
@@ -110,7 +109,7 @@ article .main__menu--subtitle {
   cursor: pointer;
   margin: 0 0 10px 0;
   overflow: hidden;
-
+// CARDS SPOWN TIME
   animation: item-appear 0.8s;
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
@@ -125,37 +124,36 @@ article .main__menu--subtitle {
     transform: scale(1);
   }
 }
-
+// H4+p
 .menu__item--header {
   overflow: hidden;
   flex: 1;
 }
-
+// H3
 .menu__item--title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-
   margin: 0 0 5px 0;
   font-weight: 500;
+  font-size: 18px;
 }
-
+// paragraphe
 .menu__item--description {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   margin: 0;
 }
-
+// PRICE
 .menu__item--price {
   font-weight: 700;
   padding-left: 20px;
 }
-
+// HOVER : AFFIRM + ICON
 .menu__item--affirm {
   background-color: #99e2d0;
   margin: 0px -80px -16px 16px;
@@ -185,7 +183,7 @@ article .main__menu--subtitle {
 .menu__item--icon {
   color: #99e2d0;
 }
-
+// BOUTTON COMMANDER
 .order-button {
   text-align: center;
   padding-top: 30px;

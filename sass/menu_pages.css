@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-/* HEADER ARROW-ICON */
+/* HEADER ARROW-LEFT-ICON */
 i.fa-arrow-left {
   color: #353535;
   font-size: 24px;
@@ -16,7 +16,7 @@ i.fa-arrow-left {
   bottom: 35px;
 }
 
-/* MAIN IMAGE */
+/* MAIN IMG */
 main .photo {
   flex-wrap: wrap;
   height: 300px;
@@ -127,6 +127,7 @@ article .main__menu--subtitle {
   overflow: hidden;
   margin: 0 0 5px 0;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .menu__item--description {

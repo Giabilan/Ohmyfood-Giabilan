@@ -1,4 +1,4 @@
-/* ANIMATION-DELAY */
+/* ANIMATION-DELAY TIME */
 .delay-0.menu__item {
   animation-delay: 0s;
 }
@@ -33,4 +33,8 @@
 
 .delay-8.menu__item {
   animation-delay: 0.8s;
+}
+
+.delay-9.menu__item {
+  animation-delay: 0.9s;
 }/*# sourceMappingURL=menu_delay.css.map */
