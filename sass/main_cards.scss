@@ -24,12 +24,14 @@
     }
 
     .cards {
-      position: relative;
+      .photo {
+        position: relative;
+      }
 
       .new-text p {
         position: absolute;
-        bottom: 76%;
-        left: 72%;
+        top: 0;
+        right: 20px;
         font-size: 15px;
         color: #008766;
         background-color: #99e2d0;

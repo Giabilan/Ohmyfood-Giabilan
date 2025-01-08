@@ -21,13 +21,13 @@
   text-decoration: none;
   color: black;
 }
-.section-main-cards .container article .cards {
+.section-main-cards .container article .cards .photo {
   position: relative;
 }
 .section-main-cards .container article .cards .new-text p {
   position: absolute;
-  bottom: 76%;
-  left: 72%;
+  top: 0;
+  right: 20px;
   font-size: 15px;
   color: #008766;
   background-color: #99e2d0;

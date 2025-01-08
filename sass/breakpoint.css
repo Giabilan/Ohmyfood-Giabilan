@@ -52,11 +52,6 @@
   .section-main-cards .container article:hover {
     transform: scale(0.98);
   }
-  .section-main-cards .container article .new-text {
-    position: absolute;
-    bottom: 75%;
-    left: 80%;
-  }
   .section-main-cards .container article .cards .photo {
     display: flex;
     justify-content: center;

@@ -67,12 +67,6 @@
       transform: scale(0.98);
     }
 
-    .new-text {
-      position: absolute;
-      bottom: 75%;
-      left: 80%;
-    }
-
     .cards .photo {
       display: flex;
       justify-content: center;
@@ -91,7 +85,7 @@
       }
     }
   }
-    
+
   // RESTAURANTS-CARDS-SIZE
   .main-cards__desktop-size {
     width: 40%;
@@ -130,7 +124,7 @@
     width: 80%;
     margin: 0 auto;
   }
-  
+
   .main__menu--line {
     display: flex;
     flex-direction: row;
